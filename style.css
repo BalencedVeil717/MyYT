@@ -115,15 +115,16 @@ nav ul li ul li a:hover {
     position: absolute;
     width: 30px;
     height: auto;
-    left: 35px;
-    top: 118px;
+    left: 10px;
+    top: 94px;
+    padding: 25px;
     display: none;
   
   }
 
   .imageBox:hover .hoverImg img{
-      display: block;
-  }
+    display: block;
+}
   
  
 
