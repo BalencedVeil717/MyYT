@@ -1,19 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-image: url(background.jpg);
     background-size: cover;
 }
 
-nav{
+nav {
     width: 100%;
     height: 60px;
-background-color: black;
+    background-color: black;
 }
 
-nav p{
+nav p {
     font-family: Arial;
     color: white;
     font-size: 24px;
@@ -22,11 +23,11 @@ nav p{
     padding: 0px 20px;
 }
 
-nav ul{
+nav ul {
     float: left;
 }
 
-nav ul li{
+nav ul li {
     float: left;
     list-style: none;
     position: relative;
@@ -68,7 +69,7 @@ nav ul li ul li a:hover {
     border-radius: 50px;
 }
 
-.topic{
+.topic {
     width: 180px;
     border-radius: 4px;
     color: blue;
@@ -77,41 +78,37 @@ nav ul li ul li a:hover {
     margin: 8px 14px;
 }
 
-.home{
-        position: fixed;
-        top: 300px;
-}
 
-.hlo{
-        background-color: rgb(16, 243, 27);
-        color: rgb(247, 100, 16);
-        border-radius: 55px;
-    
-        border: 5px rgb(255, 255, 255) solid;
-        
-        padding: 20px;
-     
-        margin-top: 20px;
-        
-        text-align: center;
+.hlo {
+    background-color: rgb(16, 243, 27);
+    color: rgb(247, 100, 16);
+    border-radius: 55px;
+
+    border: 5px rgb(255, 255, 255) solid;
+
+    padding: 20px;
+
+    margin-top: 20px;
+
+    text-align: center;
 }
 
 .imageBox {
     position: relative;
-    
-  }
-  
-  .imageBox .imageInn img{
-      position: absolute;
-      width: 94px;
-      height: auto;
-      border-width: 1px;
-      border-radius: 55%;
-      top: 86px;
-      left: 6px;
-  }
 
-  .imageBox .hoverImg  img{
+}
+
+.imageBox .imageInn img {
+    position: absolute;
+    width: 94px;
+    height: auto;
+    border-width: 1px;
+    border-radius: 55%;
+    top: 86px;
+    left: 6px;
+}
+
+.imageBox .hoverImg img {
     position: absolute;
     width: 30px;
     height: auto;
@@ -119,12 +116,24 @@ nav ul li ul li a:hover {
     top: 94px;
     padding: 25px;
     display: none;
-  
-  }
 
-  .imageBox:hover .hoverImg img{
+}
+
+.imageBox:hover .hoverImg img {
     display: block;
 }
-  
- 
 
+.footer{
+    position: fixed;
+    text-align: center;
+    font-size: 15px;
+    bottom:0;
+    left:0;
+    right:0;
+    height:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#supp{
+    font-size: 15px;
+}
