@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(background.jpg);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/485/125/original/travel-night-cartoon-landscape-fir-comet-star-moon-road-ill-vector.jpg);
     background-size: cover;
 }
 
@@ -105,9 +105,6 @@ nav ul li ul li a:hover {
     text-align: center;
 }
 
-.hlo small{
-    font-size: 20px;
-}
 .about {
     background-color: rgb(212, 164, 7);
     color: rgb(35, 6, 83);
