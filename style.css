@@ -9,18 +9,24 @@ body {
 }
 
 .container {
+    position: relative;
     background-color: orange;
     width: 100%;
+    height: 30px;
     overflow: hidden;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    height: 60px;
-    background-color: black;
+    height: 50px;
+    background-color: blue;
 }
 
 nav p {
@@ -45,10 +51,10 @@ nav ul li {
 nav ul li a {
     display: block;
     font-family: Arial;
-    color: rgb(20, 42, 161);
-    font-size: 14px;
+    color: rgb(4, 8, 34);
+    font-size: 20px;
     padding: 22px 14px;
-    text-decoration: none;
+    text-decoration: wavy;
 }
 
 nav ul li ul {
@@ -71,9 +77,11 @@ nav ul li ul li {
 }
 
 nav ul li ul li a {
-    padding: 8px 14px;
+    padding: 10px 14px;
+    padding-right: 20px;
     color: #038114;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
 }
 
 nav ul li ul li a:hover {
@@ -81,16 +89,17 @@ nav ul li ul li a:hover {
     border: 10px;
     border-radius: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .topic {
     width: 180px;
-    border-radius: 4px;
-    color: blue;
+    border-radius: 50px;
+    color: rgb(15, 15, 153);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font: bold;
     margin: 8px 14px;
+    font-size: 20px;
 }
 
 
@@ -99,7 +108,7 @@ nav ul li ul li a:hover {
     color: rgb(247, 100, 16);
     border-radius: 55px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 5px rgb(255, 255, 255) solid;
+    border: 5px aqua dashed;
     padding: 20px;
     margin-top: 20px;
     text-align: center;
@@ -146,7 +155,7 @@ nav ul li ul li a:hover {
 
 .imageBox {
     position: relative;
-
+    overflow: visible;
 }
 
 .imageBox .imageInn img {
@@ -155,12 +164,12 @@ nav ul li ul li a:hover {
     height: auto;
     border-width: 1px;
     border-radius: 55px;
-    top: 28px;
+    top: 26px;
     left: 6px;
 }
 
 .imageBox .hoverImg img {
-    position: absolute;
+    position: relative;
     width: 30px;
     height: auto;
     left: 10px;
@@ -171,6 +180,7 @@ nav ul li ul li a:hover {
 
 .imageBox:hover .hoverImg img {
     display: block;
+    position: absolute;
 }
 
 .imageBox:hover .imageInn img {
